@@ -1,1 +1,1 @@
-Simple shopping cart demonstration using HTML, CSS, React.
+Simple Shopping Cart website made using HTML, Tailwind CSS and React
