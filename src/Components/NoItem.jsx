@@ -6,7 +6,7 @@ const NoItem = () => {
       <div className="rounded-lg bg-white p-8 text-center shadow-xl">
         <h1 className="mb-4 text-4xl font-bold text-purple-600">No Item added yet</h1>
         <p className="text-gray-600">
-          You haven't added any item to the cart yet . Visit our shop 
+          Add any item to the cart. Visit our shop 
         </p>
         <CustomizedButton text={`GO TO SHOP`} link={`/shop`} ></CustomizedButton>
       </div>
