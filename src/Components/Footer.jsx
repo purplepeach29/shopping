@@ -12,7 +12,7 @@ const LINKS = [
   },
   {
     title: "Resource",
-    items: ["Blog", "Newsletter", "Events", "Help center"],
+    items: ["Support", "Newsletter", "Events", "Help center"],
   },
 ];
 
@@ -46,14 +46,14 @@ export  default function Footer() {
         </div>
         <div className="mt-12 flex w-full flex-col items-center justify-center border-t border-blue-gray-50 py-4 md:flex-row md:justify-around">
           <p className="mb-4 text-center font-normal text-blue-gray-900 md:mb-0">
-            &copy; {currentYear} <a href="https://material-tailwind.com/">Shrine Sigdel</a>. All
+            &copy; {currentYear} <a href="https://material-tailwind.com/">Prachi Raghav </a>. All
             Rights Reserved.
           </p>
             <div className="flex gap-5">
-            <FontAwesomeIcon icon={faXTwitter} style={{color: "grey",}} />
-            <FontAwesomeIcon icon={faSquareInstagram} style={{color: "grey",}} />
-            <FontAwesomeIcon icon={faFacebook} style={{color: "grey",}} />
-            <FontAwesomeIcon icon={faYoutube} style={{color: "grey",}} />
+            <FontAwesomeIcon icon={faXTwitter} style={{color: "blue",}} />
+            <FontAwesomeIcon icon={faSquareInstagram} style={{color: "blue",}} />
+            <FontAwesomeIcon icon={faFacebook} style={{color: "blue",}} />
+            <FontAwesomeIcon icon={faYoutube} style={{color: "blue",}} />
             </div>
         </div>
       </div>
