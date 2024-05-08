@@ -14,12 +14,12 @@ const Home = () => {
         style={{ backgroundImage: `url(${smallImage})` }}
       ></div>
       <div className="flex-column absolute bottom-20 right-5 md:bottom-40 2xl:bottom-60 lg:left-20 text-xl 2xl:text-3xl font-bebas md:text-2xl">
-        <div className="text-green-500 md:text-white-500">Get yourself in </div>
+        <div className="text-green-500 md:text-green-500">Get yourself in </div>
         <div className="text-4xl md:text-6xl 2xl:text-8xl text-yellow-500 md:text-orange-500">
           VOGUE
         </div>
       </div>
-      <div className=" absolute  left-5 top-5 md:top-20 md:left-20  ">
+      <div className=" absolute  left-5 top-5 md:top-40 md:left-20  ">
         <CustomizedButton text= {`SHOP NOW`} link={`/shop`}/>
       </div>
     </section>
