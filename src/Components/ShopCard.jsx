@@ -5,7 +5,7 @@ import Button from "./Button";
 //   price: "Rs. abc"
 // }
 
-const ShopCard = ({title, image, price, addToCart}) => {
+const ShopCard = ({title, image, price, addToCart, View}) => {
 
 
 
@@ -19,13 +19,14 @@ const ShopCard = ({title, image, price, addToCart}) => {
         />  
       <div className="px-5 pb-5 w-full">
           <h5 className="text-lg font-semibold tracking-tight text-gray-900">
-            {title}
+            {title} 
           </h5>
         <div className="flex items-center justify-around">
           <span className="text-2xl font-bold font-bebas text-orange-700">
             ${price}
           </span>
           <Button text={`Add to Cart`} handleClick = {addToCart}></Button>
+          <Button text='View' link ={'/View'}></Button>
         </div>
       </div>
     </div>

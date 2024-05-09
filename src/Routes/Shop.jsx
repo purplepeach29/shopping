@@ -10,6 +10,30 @@ const Shop = () => {
   const [collection, setCollection] = collectionData;
   const [cart, setCart] = cartData;
 
+  function View(item){
+    return (
+      <div className="flex flex-col justify-between items-center w-72 bg-white border border-gray-200 rounded-lg shadow">
+          <img
+            className="p-8 rounded-t-lg"
+            src={item.image}
+            alt={item.title}
+            width={300}
+          />  
+        <div className="px-5 pb-5 w-full">
+            <h5 className="text-lg font-semibold tracking-tight text-gray-900">
+              {item.title} 
+            </h5>
+          <div className="flex items-center justify-around">
+            <span className="text-2xl font-bold font-bebas text-orange-700">
+              ${item.price}
+            </span>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+
   function addToCart(item) {
     const itemIndex = cart.findIndex((cartItem) => cartItem.id === item.id);
 
@@ -57,6 +81,7 @@ const Shop = () => {
               key={item.id}
               {...item}
               addToCart={() => addToCart(item)}
+              
             ></ShopCard>
           ) : null
         )}
