@@ -23,7 +23,7 @@ export  default function Footer() {
     <footer className="relative w-full pt-8 text-black ">
       <div className="mx-auto w-full max-w-7xl px-8 pb-4">
         <div className="grid grid-cols-1 justify-between gap-4 md:grid-cols-2">
-          <h5 className="mb-6">Shopping Cart Website</h5>
+          <h5 className="mb-6">Polyjuice potion available</h5>
           <div className="grid grid-cols-3 justify-between gap-4">
             {LINKS.map(({ title, items }) => (
               <ul key={title}>
